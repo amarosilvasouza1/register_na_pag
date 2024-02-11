@@ -1,7 +1,7 @@
 import dataUser from "./data.mjs"
 
 const clikEnter = () => {
-    const enter = document.querySelector(".enter_login")
+    const enter = document.querySelector(".enter_register")
     enter.addEventListener("click", () => {
         inputAnalysisUser()
     })
@@ -11,7 +11,7 @@ const inputAnalysisUser = () => {
     const password1 = document.querySelector(".password_input")
     const email1 = document.querySelector(".email_input")
     const repeatPassword1 = document.querySelector(".password_repeat_input")
-    const name1 = document.querySelector("")
+    const name1 = document.querySelector(".name_input")
 
     const password = password1.value
     const email = email1.value
